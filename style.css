@@ -7,10 +7,11 @@ html, body {
 	justify-content: center;
 	background: #EEEEEE;
 	padding-top: 2%;
+	padding-bottom: 2%;
 }
 .profile-container {
-	width: 300px;
-	height: 500px;
+	width: 550px;
+	height: 850px;
 	background: white;
 	box-shadow: rgba(0, 0, 0, 0.117647) 0px 1px 6px, rgba(0, 0, 0, 0.117647) 0px 1px 4px;
 	display: flex;
@@ -27,7 +28,7 @@ html, body {
 }
 .profile-content {
 	flex: 3;
-	padding-top: 48px;
+	padding-top: 96px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -35,24 +36,24 @@ html, body {
 
 }
 .profile-content h2 {
-	margin-top: 8px;
-	margin-bottom: 4px;
+	margin-top: 16px;
+	margin-bottom: 8px;
 	color: #616161;
-	font-size: 28px;
+	font-size: 34px;
 }
 
 .profile-content h4 {
-	margin-top: 4px;
-	margin-bottom: 8px;
+	margin-top: 8px;
+	margin-bottom: 16px;
 	color: rgba(0,0,0, .50);
-	font-size: 12px;
+	font-size: 24px;
 }
 
 .profile-content p {
-	margin-top: 16px;
-	margin-bottom: 16px;
+	margin-top: 32px;
+	margin-bottom: 32px;
 	color: #757575;
-	font-size: 14px;
+	font-size: 24px;
 	padding-left: 10%;
 	padding-right: 10%;
 	font-weight: 300;
@@ -64,7 +65,7 @@ ul.social-media {
 	display: flex;
 	width: 50%;
 	justify-content: space-between;
-	font-size: 24px;
+	font-size: 48px;
 	color: #BDBDBD;
 
 
@@ -74,10 +75,10 @@ ul.social-media {
 	border: 0;
 	background: #AB47BC;
 	color: white;
-	padding: 6px 12px;
+	padding: 12px 24px;
 	font-weight: 300;
 	position: absolute;
-	bottom: 28px;
+	bottom: 56px;
 	transition: .10s all ease-in-out;
 
 }
@@ -90,13 +91,13 @@ button:hover {
 }
 
 .img-circle {
-	padding: 3px;
+	padding: 6px;
 	background: white;
-	width: 100px;
-	height: 100px;
+	width: 200px;
+	height: 200px;
 	border-radius: 100%;
 	box-shadow: rgba(0, 0, 0, 0.117647) 0px 1px 6px, rgba(0, 0, 0, 0.117647) 0px 1px 4px;
-	transform: translateY(48px);
+	transform: translateY(96px);
 	
 }
 .img-circle img {
