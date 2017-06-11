@@ -58,7 +58,6 @@ body {
 /************ typography ************/
 #hd h1 {
     font-size: 48px;
-    text-transform: uppercase;
     letter-spacing: 3px;
     text-align: end;
     margin-top: 4%;
