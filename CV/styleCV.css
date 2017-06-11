@@ -85,9 +85,6 @@ p {
 a {
     color: #777777;
     text-decoration: none;
-
-    -webkit-color: #777777;
-    -webkit-text-decoration: none;
 }
 
 a:hover {
