@@ -18,8 +18,9 @@ body {
     background-color: white;
     color: #666666;
     font-size: 16px;
+    font-weight: bold;
     cursor: pointer;
-    padding: 6px 12px 6px 12px;
+    padding: 10px;
     margin-bottom: 6px;
     text-decoration: none;
     -webkit-transition: background-color .3s ease-in-out;
@@ -38,9 +39,14 @@ body {
     transition: background-color .3s ease-in-out;
 }
 .social button {
-    width: 50px;
+    width: 90px;
     display: inline;
     margin-top: 20px;
+}
+.social {
+    margin: 0 auto;
+    text-align: right;
+    width: 73.076em;
 }
 
 /************main**************/
@@ -154,7 +160,7 @@ a#pdf {
     float: right;
     background: #666;
     color: white;
-    padding: 6px 60px 6px 12px;
+    padding: 10px 50px 10px 20px;
     margin-bottom: 6px;
     text-decoration: none;
 }
