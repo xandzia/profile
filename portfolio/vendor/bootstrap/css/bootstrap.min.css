@@ -1409,12 +1409,14 @@ textarea {
 
 a {
     color: #337ab7;
-    text-decoration: none
+    text-decoration: none;
+    position: absolute;
+    margin-top: 20px;
 }
 
 a:focus,
 a:hover {
-    color: #23527c;
+    color: #524f46;
     text-decoration: underline
 }
 
@@ -1438,7 +1440,8 @@ img {
 .thumbnail>img {
     display: block;
     max-width: 100%;
-    height: auto
+    height: auto;
+    margin: 0 auto;
 }
 
 .img-rounded {
