@@ -10,6 +10,7 @@ html, body {
 	padding-top: 2%;
 	padding-bottom: 2%;
 }
+
 .profile-container {
 	width: 550px;
 	height: 850px;
@@ -18,6 +19,7 @@ html, body {
 	display: flex;
 	flex-direction: column;
 }
+
 .top-bg {
 	flex: 1;
 	background: #AB47BC;
@@ -26,6 +28,7 @@ html, body {
 	align-items: flex-end;
 	justify-content: center;
 }
+
 .profile-content {
 	flex: 3;
 	padding-top: 96px;
@@ -34,18 +37,21 @@ html, body {
 	align-items: center;
 	position: relative;
 }
+
 .profile-content h2 {
 	margin-top: 16px;
 	margin-bottom: 8px;
 	color: #616161;
 	font-size: 34px;
 }
+
 .profile-content h4 {
 	margin-top: 8px;
 	margin-bottom: 16px;
 	color: rgba(0, 0, 0, .50);
 	font-size: 24px;
 }
+
 .profile-content p {
 	margin-top: 32px;
 	margin-bottom: 32px;
@@ -55,6 +61,7 @@ html, body {
 	padding-right: 10%;
 	font-weight: 300;
 }
+
 ul.social-media {
 	list-style-type: none;
 	padding: 0;
@@ -64,6 +71,7 @@ ul.social-media {
 	font-size: 48px;
 	color: #BDBDBD;
 }
+
 .profile-content button {
 	border: 0;
 	background: #AB47BC;
@@ -73,19 +81,24 @@ ul.social-media {
 	bottom: 56px;
 	transition: .10s all ease-in-out;
 }
+
 button:focus {
 	outline: none;
 }
+
 button:hover {
 	transform: scale(1.05);
 }
+
 a {
 	color: #BDBDBD;
 }
+
 .but {
 	color: white;
 	text-decoration: none;
 }
+
 .img-circle {
 	padding: 6px;
 	background: white;
@@ -95,6 +108,48 @@ a {
 	box-shadow: rgba(0, 0, 0, 0.117647) 0px 1px 6px, rgba(0, 0, 0, 0.117647) 0px 1px 4px;
 	transform: translateY(96px);
 }
+
 .img-circle img {
 	border-radius: 100%;
+}
+
+@media screen and (max-width: 800px) {
+	.profile-container{
+		width: 500px;
+		height: 800px;
+	}
+	ul.social-media{
+		margin-top: 0;	
+	}
+	.profile-content button{
+		bottom: 65px;	
+	}
+}
+
+@media screen and (max-width: 500px) {
+	.profile-container{
+		width: 350px;
+		height: 600px;
+	}
+	.img-circle, img{
+		width: 150px;
+    	height: 150px;
+	}
+	.profile-content h2{
+		font-size: 24px;
+	}
+	.profile-content h4,
+	.profile-content p{
+		font-size: 16px;
+	}
+	ul.social-media{
+		margin-top: 0;
+		font-size: 36px;
+	}
+	.profile-content button{
+		bottom: 40px;	
+	}
+	.but{
+		font-size: 14px;
+	}
 }
