@@ -105,17 +105,17 @@ body {
 .yui-b {
 	_position: static;
 }
-#yui-main .yui-b {
+.yui-main .yui-b {
 	position: static;
 }
-#yui-main, .yui-g .yui-u .yui-g {
+.yui-main, .yui-g .yui-u .yui-g {
 	width: 100%;
 }
-.yui-t1 #yui-main, .yui-t2 #yui-main, .yui-t3 #yui-main {
+.yui-t1 .yui-main, .yui-t2 .yui-main, .yui-t3 .yui-main {
 	float: right;
 	margin-left: -25em;
 }
-.yui-t4 #yui-main, .yui-t5 #yui-main, .yui-t6 #yui-main {
+.yui-t4 .yui-main, .yui-t5 .yui-main, .yui-t6 .yui-main {
 	float: left;
 	margin-right: -25em;
 }
@@ -124,7 +124,7 @@ body {
 	width: 12.30769em;
 	*width: 12.00em;
 }
-.yui-t1 #yui-main .yui-b {
+.yui-t1 .yui-main .yui-b {
 	margin-left: 13.30769em;
 	*margin-left: 13.05em;
 }
@@ -133,7 +133,7 @@ body {
 	width: 13.8461em;
 	*width: 13.50em;
 }
-.yui-t2 #yui-main .yui-b {
+.yui-t2 .yui-main .yui-b {
 	margin-left: 14.8461em;
 	*margin-left: 14.55em;
 }
@@ -142,7 +142,7 @@ body {
 	width: 23.0769em;
 	*width: 22.50em;
 }
-.yui-t3 #yui-main .yui-b {
+.yui-t3 .yui-main .yui-b {
 	margin-left: 24.0769em;
 	*margin-left: 23.62em;
 }
@@ -151,7 +151,7 @@ body {
 	width: 13.8456em;
 	*width: 13.50em;
 }
-.yui-t4 #yui-main .yui-b {
+.yui-t4 .yui-main .yui-b {
 	margin-right: 14.8456em;
 	*margin-right: 14.55em;
 }
@@ -160,7 +160,7 @@ body {
 	width: 18.4615em;
 	*width: 18.00em;
 }
-.yui-t5 #yui-main .yui-b {
+.yui-t5 .yui-main .yui-b {
 	margin-right: 19.4615em;
 	*margin-right: 19.125em;
 }
@@ -169,15 +169,15 @@ body {
 	width: 23.0769em;
 	*width: 22.50em;
 }
-.yui-t6 #yui-main .yui-b {
+.yui-t6 .yui-main .yui-b {
 	margin-right: 24.0769em;
 	*margin-right: 23.62em;
 }
-.yui-t7 #yui-main .yui-b {
+.yui-t7 .yui-main .yui-b {
 	display: block;
 	margin: 0 0 1em 0;
 }
-#yui-main .yui-b {
+.yui-main .yui-b {
 	float: none;
 	width: auto;
 }
@@ -310,13 +310,13 @@ body {
 .yui-ge div.first .yui-gd div.first {
 	width: 32%;
 }
-#hd:after, #bd:after, #ft:after, .yui-g:after, .yui-gb:after, .yui-gc:after, .yui-gd:after, .yui-ge:after, .yui-gf:after {
+.hd:after, .bd:after, .ft:after, .yui-g:after, .yui-gb:after, .yui-gc:after, .yui-gd:after, .yui-ge:after, .yui-gf:after {
 	content: ".";
 	display: block;
 	height: 0;
 	clear: both;
 	visibility: hidden;
 }
-#hd, #bd, #ft, .yui-g, .yui-gb, .yui-gc, .yui-gd, .yui-ge, .yui-gf {
+.hd, .bd, .ft, .yui-g, .yui-gb, .yui-gc, .yui-gd, .yui-ge, .yui-gf {
 	zoom: 1;
 }

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <meta charset="utf-8">
@@ -33,13 +33,13 @@
         <button id="en" class="button_lang">en</button>
     </header>
     <div id="doc2RU" class="yui-t7">
-        <div id="inner">
-            <header id="hd">
+        <div class="inner">
+            <header class="hd">
                 <div class="img-circle">
-                    <img src="cv200x200.jpg">
+                    <img src="cv200x200.jpg" alt="Anna's photo">
                 </div>
                 <div class="yui-gc">
-                    <div id="sa" class="yui-u first ">
+                    <div class="sa yui-u first">
                         <h1>Степашко Анна</h1>
                         <h2 class="frontend">Front-end <strong>web developer </strong></h2>
                     </div>
@@ -59,8 +59,8 @@
                 <!-- end yui-gc -->
             </header>
             <!-- end hd -->
-            <div id="bd">
-                <div id="yui-main">
+            <div class="bd">
+                <div class="yui-main">
                     <div class="yui-b">
                         <div class="yui-gf">
                             <div class="yui-u first">
@@ -140,28 +140,27 @@
                         <!-- end yui-gf -->
                     </div>
                     <!-- end yui-b -->
-                </div>
-                <!-- end yiu-main -->
+                </div><!-- end yiu-main -->
             </div>
             <!-- end bd -->
-            <footer id="ft">
-                <h3>Степашко Анна —
-                    <a id="pdf" href="Anna Stepashko.pdf" onclick="pdfToHTML();return false" download="Anna Stepashko.pdf">Download PDF</a>
+            <footer class="ft">
+                <div class="downloadFooter">Степашко Анна —
+                    <a class="pdf" href="AnnaStepashko.pdf" onclick="pdfToHTML();return false" download="Anna Stepashko.pdf">Download PDF</a>
                     <a href="#">stepashko.ann@gmail.com</a> — +38(067)847-16-58
-                </h3>
+                </div>
             </footer>
         </div>
         <!-- end inner -->
     </div>
     <!-- END RUS -->
     <div id="doc2UA" class="yui-t7">
-        <div id="inner">
-            <header id="hd" itemscope itemtype="http://schema.org/Person">
+        <div class="inner">
+            <header class="hd" itemscope itemtype="http://schema.org/Person">
                 <div class="img-circle">
-                    <img itemprop="image" src="cv200x200.jpg">
+                    <img itemprop="image" src="cv200x200.jpg" alt="Anna's photo">
                 </div>
                 <div class="yui-gc">
-                    <div id="sa" class="yui-u first ">
+                    <div class="sa yui-u first ">
                         <h1 itemprop="name">Степашко Анна</h1>
                         <h2 class="frontend" itemprop="jobTitle">Front-end <strong>web developer </strong></h2>
                     </div>
@@ -181,8 +180,8 @@
                 <!-- end yui-gc -->
             </header>
             <!-- end hd -->
-            <div id="bd">
-                <div id="yui-main">
+            <div class="bd">
+                <div class="yui-main">
                     <div class="yui-b">
                         <div class="yui-gf">
                             <div class="yui-u first">
@@ -266,9 +265,9 @@
                 <!-- end yiu-main -->
             </div>
             <!-- end bd -->
-            <footer id="ft">
+            <footer class="ft">
                 <h3>Степашко Анна —
-                    <a id="pdf" href="AnnaStepashkoUA.pdf" onclick="pdfToHTML();return false" download="Anna Stepashko.pdf">Download PDF</a>
+                    <a class="pdf" href="AnnaStepashkoUA.pdf" onclick="pdfToHTML();return false" download="Anna Stepashko.pdf">Download PDF</a>
                     <a href="#">stepashko.ann@gmail.com</a> — +38(067)847-16-58
                 </h3>
             </footer>
@@ -277,13 +276,13 @@
     </div>
     <!-- END UKR-->
     <div id="doc2EN" class="yui-t7">
-        <div id="inner">
-            <header id="hd">
+        <div class="inner">
+            <header class="hd">
                 <div class="img-circle">
-                    <img src="cv200x200.jpg">
+                    <img src="cv200x200.jpg" alt="Anna's photo">
                 </div>
                 <div class="yui-gc">
-                    <div id="sa" class="yui-u first ">
+                    <div class="sa yui-u first ">
                         <h1>Stepashko Anna</h1>
                         <h2 class="frontend">Front-end <strong>web developer </strong></h2>
                     </div>
@@ -303,8 +302,8 @@
                 <!-- end yui-gc -->
             </header>
             <!-- end hd -->
-            <div id="bd">
-                <div id="yui-main">
+            <div class="bd">
+                <div class="yui-main">
                     <div class="yui-b">
                         <div class="yui-gf">
                             <div class="yui-u first">
@@ -388,9 +387,9 @@
                 <!-- end yiu-main -->
             </div>
             <!-- end bd -->
-            <footer id="ft">
+            <footer class="ft">
                 <h3>Stepashko Anna —
-                    <a id="pdf" href="AnnaStepashkoEN.pdf" onclick="pdfToHTML();return false" download="Anna Stepashko.pdf">Download PDF</a>
+                    <a class="pdf" href="AnnaStepashkoEN.pdf" onclick="pdfToHTML();return false" download="Anna Stepashko.pdf">Download PDF</a>
                     <a href="#">stepashko.ann@gmail.com</a> — +38(067)847-16-58
                 </h3>
             </footer>
@@ -416,8 +415,7 @@
         });
 
     </script>
-    <script type="text/javascript" scr="changeLang.js"></script>
-    <script scr="pdfFromHTML.js"></script>
+<!--    <script src="pdfFromHTML.js"></script>-->
 </body>
 
 </html>

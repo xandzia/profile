@@ -57,7 +57,7 @@ body {
 
 /************main**************/
 
-#inner {
+.inner {
     padding: 10px 80px;
     margin: 40px auto;
     background: rgba(241, 241, 241, 0.2);
@@ -79,20 +79,20 @@ body {
     width: 12.3%;
 }
 
-#sa {
+.sa {
     float: right;
 }
 
 
 /************ header, body, footer ************/
 
-#hd {
+.hd {
     margin: 2.5em 0 3em 0;
     padding-bottom: 1.5em;
     border-bottom: 1px solid #ccc
 }
 
-#hd .frontend {
+.hd .frontend {
     font-size: 120%;
     text-align: right;
     font-style: normal;
@@ -100,12 +100,12 @@ body {
     text-transform: none;
 }
 
-#hd h2 {
+.hd h2 {
     text-transform: uppercase;
     letter-spacing: 2px;
 }
 
-#bd,
+.bd,
 #ft {
     margin-bottom: 2em;
 }
@@ -128,7 +128,7 @@ body {
 
 /************ typography ************/
 
-#hd h1 {
+.hd h1 {
     font-size: 48px;
     letter-spacing: 3px;
     text-align: end;
@@ -147,7 +147,8 @@ h4 {
 h1,
 h2,
 h3,
-h4 {
+h4,
+.downloadFooter {
     color: #333;
 }
 
@@ -157,12 +158,12 @@ p {
     padding-right: 3em;
 }
 
-a {
+#ft div, a {
     color: #777777;
     text-decoration: none;
 }
 
-a:hover {
+#ft div:hover, a:hover {
     color: #000000;
 }
 
@@ -203,7 +204,7 @@ p.enlarge span {
 
 /************ other ************/
 
-a#pdf {
+a.pdf {
     display: block;
     float: right;
     background: #666;
@@ -213,7 +214,7 @@ a#pdf {
     text-decoration: none;
 }
 
-a#pdf:hover {
+a.pdf:hover {
     background: #222;
 }
 
