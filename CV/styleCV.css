@@ -4,6 +4,7 @@ body {
     /*font-family: 'Philosopher', sans-serif;*/
     font-family: 'Rubik', sans-serif;
     color: #444;
+    font-size: 14px;
 }
 
 
@@ -51,7 +52,6 @@ body {
 .social {
     margin: 0 auto;
     text-align: right;
-    width: 73.076em;
 }
 
 
@@ -59,7 +59,7 @@ body {
 
 .inner {
     padding: 10px 80px;
-    margin: 40px auto;
+    margin: 10px auto;
     background: rgba(241, 241, 241, 0.2);
     border: solid #666;
     border-width: 8px 0 2px 0;
@@ -105,26 +105,18 @@ body {
     letter-spacing: 2px;
 }
 
-.bd,
-#ft {
+.bd{
     margin-bottom: 2em;
 }
 
 
 /************ footer ************/
 
-#ft {
-    padding: 1em 0 5em 0;
-    font-size: 92%;
+.ft {
+    padding: 1em 0 0 0;
     border-top: 1px solid #ccc;
     text-align: center;
 }
-
-#ft p {
-    margin-bottom: 0;
-    text-align: center;
-}
-
 
 /************ typography ************/
 
@@ -249,4 +241,133 @@ a.pdf:hover {
 
 img {
     border-radius: 100%;
+}
+
+/************ media ************/
+@media all and (max-width: 1054px){
+    #doc2RU, #doc2UA, #doc2EN, .social{
+	    width: 98vw;
+    }
+}
+@media all and (max-width: 977px){
+    .inner{
+        padding: 10px 50px;
+    }
+}
+@media all and (max-width: 756px){
+    #doc2RU, #doc2UA, #doc2EN, .social{
+	    width: 98%;
+    }
+    .social{
+        text-align: center;
+    }
+    .inner{
+        padding: 5px;
+    }
+    .yui-gc div.first{
+        width: 59vw;
+    }
+    .hd h1{
+        font-size: 7vw;
+    }
+    .hd h2,
+    p, .yui-u li{
+        font-size: 2.5vw;
+    }
+    .yui-u .enlarge{
+        padding-right: 3em;
+        font-size: 2.5vw;
+    }
+    .yui-gc .yui-u{
+        width: 32vw;
+    }
+    h3, h4{
+        font-size: 2.3vw;
+    }
+    h2{
+        font-size: 3vw;
+    }
+    
+}
+@media all and (max-width: 577px){
+    .img-circle{
+        margin: 0 auto;
+        float: none;
+    }
+    .yui-gc div.first,
+    .yui-gc .yui-u,
+    .yui-gf div.first,
+    .yui-gf .yui-u{
+        width: 100%;
+    }
+    .yui-gf div.first{
+        float: none;
+    }
+    .hd{
+        margin: 1em auto;
+    }
+    .hd h1{
+        font-size: 2.5em;
+    }
+    .hd h1,
+    .hd .frontend,
+    .contact-info,
+    .yui-gf div.first h2{
+        text-align: center;
+    }
+    .contact-info{
+        padding-top: 10px
+    }
+    .contact-info h3,
+    .yui-u li{
+        font-size: 1em;
+    }
+    .yui-u ul{
+        padding: 10px;
+    }
+    .yui-gf{
+        margin-bottom: 1em;
+        padding-bottom: 0;
+    }
+    .yui-gf h2{
+        text-align: center;
+        font-size: 1.5em;
+    }
+    .yui-u .enlarge,
+    .job{
+        padding: 1em;
+        font-size: 1em;
+    }
+    .yui-u h2{
+        text-align: start;
+        font-size: 1.5em;
+        padding-bottom: 10px;
+    }
+    .yui-u h3,
+    .yui-u h4{
+        font-size: 1em;
+        padding-bottom: 10px;
+    }
+    .downloadFooter,
+    .yui-u .enlarge a{
+        font-size: .9em;
+    }
+    .yui-u p{
+        font-size: .9em;
+        padding-right: 0;
+    }
+    .year, .job h4{
+        position: static;
+    }
+    .year {
+        text-align: end;
+    }
+    .downloadFooter .pdf{
+        float: none;
+        margin: 6px auto;
+        width: 95px;
+    }
+    .social button{
+        width: 60px;
+    }
 }
