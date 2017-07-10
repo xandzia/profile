@@ -99,6 +99,9 @@ body {
     padding-top: 10px;
     text-transform: none;
 }
+.tel{
+    color: #333;
+}
 
 .hd h2 {
     text-transform: uppercase;
@@ -358,6 +361,9 @@ img {
     }
     .year, .job h4{
         position: static;
+    }
+    .job h2{
+        font-size: 1.4em;
     }
     .year {
         text-align: end;
