@@ -42,6 +42,9 @@ body {
     -ms-transition: background-color .3s ease-in-out;
     transition: background-color .3s ease-in-out;
 }
+button:focus{
+    outline: none;
+}
 
 .social button {
     width: 90px;
@@ -125,7 +128,7 @@ body {
 
 .hd h1 {
     font-size: 48px;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
     text-align: end;
     margin-top: 4%;
 }
@@ -292,6 +295,15 @@ img {
     }
     
 }
+
+@media all and (max-width: 652px){
+    .downloadFooter .pdf{
+        float: none;
+        margin: 6px auto;
+        width: 95px;
+    }  
+}
+
 @media all and (max-width: 577px){
     .img-circle{
         margin: 0 auto;
@@ -317,6 +329,9 @@ img {
     .contact-info,
     .yui-gf div.first h2{
         text-align: center;
+    }
+    .yui-gf div.first h2{
+        padding-top: 10px;
     }
     .contact-info{
         padding-top: 10px
@@ -365,8 +380,16 @@ img {
     .job h2{
         font-size: 1.4em;
     }
+    .job{
+       border-bottom-style: hidden;
+        margin-bottom: 0;
+    }
+    .job h3{
+        padding-bottom: 0;
+    }
     .year {
         text-align: end;
+        padding-bottom: 0;
     }
     .downloadFooter .pdf{
         float: none;
