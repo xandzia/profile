@@ -168,15 +168,15 @@ li {
     font-size: 122%;
 }
 
-p.enlarge {
+.enlarge span {
     font-size: 120%;
-    padding-right: 6.5em;
     line-height: 24px;
 }
-
-p.enlarge span {
-    color: #000
+.enlarge hr{
+    border-style: ridge;
+    margin: 5px 0;
 }
+
 
 .contact-info {
     margin-top: 7px;
@@ -225,11 +225,13 @@ a.pdf:hover {
 }
 
 .job p {
-    margin: 0.75em 0 2em 0;
+    margin: 0.75em 0 0 0;
 }
 
 .last {
     border: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
 
 .img-circle {
@@ -246,6 +248,7 @@ img {
 -webkit-tap-highlight-color: transparent; /* For some Androids */
 
 /************ media ************/
+
 /*
 @media all and (max-width: 1054px){
     #doc2RU, #doc2UA, #doc2EN, .social{
@@ -398,3 +401,4 @@ img {
     }
 }
 */
+
