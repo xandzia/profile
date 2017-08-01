@@ -246,6 +246,7 @@ img {
 -webkit-tap-highlight-color: transparent; /* For some Androids */
 
 /************ media ************/
+/*
 @media all and (max-width: 1054px){
     #doc2RU, #doc2UA, #doc2EN, .social{
 	    width: 98vw;
@@ -396,3 +397,4 @@ img {
         width: 60px;
     }
 }
+*/
